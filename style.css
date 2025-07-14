@@ -20,6 +20,12 @@ body {
   width: 52%;
 }
 
+#name{
+  text-align: center;
+  padding: 10px;
+  font-size: 150%;
+}
+
 #all_scroll_right{
   white-space: nowrap;
 }
