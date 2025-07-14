@@ -1,22 +1,56 @@
+<!DOCTYPE html>
 <html>
+    <!-- Hello World and Fellow Nerds -->
     <head>
         <link rel="stylesheet" href="style.css">
         <script src="power.js"></script>
+        <!-- My Font is no Rabbit -->
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
     </head>
-    <body>
-        <div id="name">Arkeen "Tre" Dunlap II</div>
-        <!-- <img id="self" src="img/Self.jpg"> -->
-        <div class="contact">Brooklyn, NY</div>
-        <div class="contact">arkeen.dunlap354@gmail.com | <a href="https://www.linkedin.com/in/arkeen-dunlap-ii-05229b164/">LinkedIn</a></div>
 
+    <body>
+        <!-- Logo Image (Signature took way too many tries BTW) -->
+        <div id="top_container"><img src="img/Frontpage/TreSig_white.png" id="top_img"></div>
+        <!-- Scrolling Images of Tre's Adventures! -->
+        <div id="all_scroll_right">
+            <span id="scroll">
+                <img class="move_img" src="img/scroll/0.jpg">
+                <img class="move_img" src="img/scroll/1.jpg">
+                <img class="move_img" src="img/scroll/2.jpg">
+                <img class="move_img" src="img/scroll/3.jpg">
+                <img class="move_img" src="img/scroll/4.jpg">
+                <img class="move_img" src="img/scroll/5.jpg">
+                <img class="move_img" src="img/scroll/6.jpg">
+                <img class="move_img" src="img/scroll/7.jpg">
+                <img class="move_img" src="img/scroll/8.jpg">
+                <img class="move_img" src="img/scroll/9.jpg">
+            </span>
+            <span id="scroll2">
+                <img class="move_img_loop" src="img/scroll/0.jpg">
+                <img class="move_img_loop" src="img/scroll/1.jpg">
+                <img class="move_img_loop" src="img/scroll/2.jpg">
+                <img class="move_img_loop" src="img/scroll/3.jpg">
+                <img class="move_img_loop" src="img/scroll/4.jpg">
+                <img class="move_img_loop" src="img/scroll/5.jpg">
+                <img class="move_img_loop" src="img/scroll/6.jpg">
+                <img class="move_img_loop" src="img/scroll/7.jpg">
+                <img class="move_img_loop" src="img/scroll/8.jpg">
+                <img class="move_img_loop" src="img/scroll/9.jpg">
+            </span>
+        </div>
+        <!--Who is this guy ?-->
+        <div id="titles">Computer Scientist • Actor • Stage Manager</div>
+        <!-- Does he have the skills? Yes he does. -->
         <h1>Qualifications, Skills, and Interests</h1>
         <ul>
-            <h2>Interest in Software Development and Game Design</h2>
+            <h2>Sppecialization in Software Engineering</h2>
+            <h2>Interest in Game Design</h2>
             <h2>Proficient in the Following Coding Languages:
                 <ul>
                     <li>C++</li>
                     <li>Python</li>
                     <li>Java</li>
+                    <li>C</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
@@ -26,23 +60,24 @@
                     <li>Scheme</li>
                 </ul>
             </h2>
-            <h2>Experience with Acting and Stage Management</h2>
-            <h2>College level proficiency with the Spanish language</h2>
+            <h2>Experience in Stage Acting</h2>
+            <h2>Experience in Stage Management</h2>
+            <h2>College level proficiency in the Spanish language</h2>
         </ul>
-
+        <!-- Examples of past jobs -->
         <h1>Work Experience</h1>
         <ul>
-            <h2>Resident Advisor at Ursinus College, <i>Fall 2023 - Ongoing</i></h2>
-            <h2>Ambassador for the Institute for Inclusion and Equity office at Ursinus College, <i>Fall 2021 - Ongoing </i></h2>
+            <h2>Resident Advisor at Ursinus College, <i>Fall 2023 - Spring 2025</i></h2>
+            <h2>Ambassador for the Institute for Inclusion and Equity office at Ursinus College, <i>Fall 2021 - Spring 2025</i></h2>
             <h2>Computer Science Tutor at Ursinus College, <i>Spring 2023</i></h2>
         </ul>
-
+        <!-- Tre's Education ! -->
         <h1>Education</h1>
         <ul>
             <h2>Ursinus College
                 <ul>
-                    <li>Pursuing Bachelor's in Computer Science</li>
-                    <li>Pursuing Theater Minor</li>
+                    <li>Bachelor's in Computer Science</li>
+                    <li>Theater Minor</li>
                 </ul>
             </h2>
             <h2>Uncommon Charter High School</h2>
@@ -73,117 +108,5 @@
                 </ul>
             </h2>
             </ul>
-            <h1>Acting Experience</h1>
-            <button id = "actingButton" onclick="hideDisplay()">Acting Experience</button>
-            <div id="dropDown">
-            <h2>Ursinus College Theater</h2>
-            <table>
-                <thead>
-                    <tr>
-                    <th scope="col">Play</th>
-                    <th scope="col">Role in Play</th>
-                    <th scope="col">Date</th>
-                    </tr>
-    
-                    <tbody>
-                        <tr>
-                            <th scope="row">Sweat by Lynn Nottage
-                                <p><img src="img/Sweat.jpg" class="Poster"></p>
-                            </th>
-                            <td>Cast: Chris</td>
-                            <td>March 24-27, 2021</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">365
-                                <p><img src="img/365.jpg" class="Poster"></p>
-                            </th>
-                            <td>Cast: Various</td>
-                            <td>December 10-11, 2021</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Trail to Oregon
-                                <p><img src="img/Trail.jpg" class="Poster"></p>
-                            </th>
-                            <td>Light Board Operator</td>
-                            <td>April 14-15, 2022</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Pride and Prejudice at Pemberley College by Kate Isabel Foley
-                                <p><img src="img/Pemberly.jpg" class="Poster"></p>
-                            </th>
-                            <td>Cast: Proffesor Bennet</td>
-                            <td>April 19, 2022</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Ursinus Fringe 2023: One Act Festival
-                                <p><img src="img/Fringe23.jpg" class="Poster"></p>
-                            </th>
-                            <td>Cast</td>
-                            <td>September 13, 2023</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Two Gentlemen of Verona by William Shakespeare
-                                <p><img src="img/TwoGent.jpg" class="Poster"></p>
-                            </th>
-                            <td>Cast: Thurio</td>
-                            <td>September 28 - October 1, 2023</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Rocky Horror Picture Show
-                                <p><img src="img/Rocky.jpg" class="Poster"></p>
-                            </th>
-                            <td>Cast: Ralph & Ensemble</td>
-                            <td>October 20-21, 2023</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Captain Darling by Kate Isabel Foley
-                                <p><img src="img/Darling.png" class="Poster"></p>
-                            </th>
-                            <td>Cast: Curly</td>
-                            <td>April 4-7, 2024</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Ursinus College Dance Concert: Dancing Stories, Weaving Time
-                                <p><img src="img/WeaveTime.png" class="Poster"></p>
-                            </th>
-                            <td>Stage Manager</td>
-                            <td>April 25-27, 2024</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">The Girl in the Mirror by Bruce Jacoby
-                                <p><img src="img/Mirror.png" class="Poster"></p>
-                            </th>
-                            <td>Cast: Father</td>
-                            <td>November 15-16, 2024</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Ursinus College Dance Concert: Home is Here/Hear
-                                <p><img src="img/HomeHere.jpg" class="Poster"></p>
-                            </th>
-                            <td>Stage Manager</td>
-                            <td>December 5-7, 2024</td>
-                        </tr>
-                    </tbody>
-    
-                    <tfoot>
-                        <tr>
-                          <th scope="row" colspan="2"></th>
-                          <td></td>
-                        </tr>
-                    </tfoot>
-                </thead>
-            </table>
-        </div>
-
     </body>
 </html>

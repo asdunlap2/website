@@ -1,85 +1,62 @@
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 body {
-    background-color: #11005e;
-    color: #c4c3c2;
-    font-family: Verdana, sans-serif;
-    margin: 15px;
-  }
-
-table {
-    border-collapse: collapse;
-    /* First Table color */
-    background-color: #cfcfcf;
-    color: black;
-    border: 2px solid #8c8c8c;
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    width: 95%
-  }
-
-.contact {
-    margin: auto;
-    text-align: center;
-    font-size: 150%;
+  font-family: Oswald;
+  background: #111;
+  color: white;
 }
 
-#self{
-    height: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#top_container{
+  justify-content: center;
 }
 
-#dropDown{
-    display: none;
+#top_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 52%;
 }
 
-#actingButton {
-    background-color: #c4c3c2;
-    border: none;
-    color: #11005e;
-    padding: 15px 32px;
-    font-family: Verdana, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-
-#name{
-    font-size: 350%;
-    text-align: center;
+#all_scroll_right{
+  white-space: nowrap;
 }
 
-img.Poster {
-    /* height: 30%; */
-    height: 250px;
-    align-items: first baseline;
+#scroll{
+  position: relative;
+  margin-left: 0%;
+  white-space: nowrap;
 }
-  
-caption {
-    caption-side: bottom;
-    padding: 10px;
-    font-weight: bold;
+
+#scroll2{
+  position: relative;
+  margin-left: -365%;
+  white-space: nowrap;
 }
-  
-thead,
-tfoot {
-    background-color: #d6d1eb;
-  }
-  
-th,
-td {
-    border: 1px solid #a0a0a0;
-    padding: 8px 10px;
-    text-align: center;
-  }
-  
-td:last-of-type {
-    text-align: center;
+
+.move_img{
+  position: relative;
+  width: 18%;
 }
-  
-tbody > tr:nth-of-type(even) {
-    /* Second Table Color */
-    background-color: #a6a6a6;
+
+.move_img_loop{
+  position: relative;
+  width: 18%;
+}
+
+#titles{
+  margin: auto;
+  text-align: center;
+  font-size: 200%;
+  padding: 20px;
+}
+
+h1{
+  font-size: 200%;
+}
+
+h2{
+  font-size: 150%;
 }
