@@ -66,3 +66,68 @@ h1{
 h2{
   font-size: 150%;
 }
+
+#header_link{
+  text-decoration: none;
+  color: white;
+}
+
+#header_link:hover{
+  color: #7c94f7;
+}
+
+/* theater.html */
+table {
+    /* border-collapse: collapse; */
+    margin-left: 1.7%;
+    /* margin-right: auto; */
+    background-color: #cfcfcf;
+    color: black;
+    font-size: 0.8rem;
+    width: 87%
+}
+
+thead,
+tfoot {
+    background-color: #7c94f7;
+  }
+  
+th,
+td {
+    border: 1px solid #a0a0a0;
+    text-align: center;
+  }
+  
+td:last-of-type {
+    text-align: center;
+}
+  
+tbody > tr:nth-of-type(even) {
+    /* Second Table Color */
+    background-color: #a6a6a6;
+}
+
+img.Poster {
+    /* height: 30%; */
+    width: 20%;
+    align-items: first baseline;
+}
+
+#thea_main{
+  text-align: center;
+}
+
+#thea_footer{
+  color: white;
+  text-decoration: none;
+}
+
+#thea_footer:hover{
+  color: #7c94f7;
+}
+
+#thea_split_end{
+  margin-left: auto;
+  margin-right: auto;
+  width: 97%;
+}
